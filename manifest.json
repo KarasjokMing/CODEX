@@ -1,0 +1,13 @@
+{
+  "display_name": "快捷删除单条消息",
+  "loading_order": 200,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "KarasjokMing",
+  "version": "1.0.0",
+  "homePage": "https://github.com/KarasjokMing/CODEX",
+  "minimum_client_version": "1.13.4",
+  "hooks": { "disable": "onDisable", "enable": "onEnable" }
+}
