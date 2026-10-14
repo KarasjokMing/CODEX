@@ -1,0 +1,28 @@
+.qd-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px 0;
+    position: relative;
+    z-index: 1;
+}
+.qd-delete {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 32px;
+    padding: 5px 10px;
+    border: 1px solid var(--SmartThemeBorderColor, #777);
+    border-radius: 6px;
+    color: var(--SmartThemeBodyColor, #eee);
+    background: var(--SmartThemeBlurTintColor, #292929);
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+.qd-delete:hover, .qd-delete:focus-visible {
+    border-color: var(--c-danger, #e76c6c);
+    color: var(--c-danger, #e76c6c);
+}
+.qd-delete:disabled { opacity: 0.5; cursor: wait; }
+.qd-preview { white-space: pre-wrap; overflow-wrap: anywhere; text-align: left; max-height: 180px; overflow: auto; }
